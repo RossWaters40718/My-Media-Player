@@ -1517,8 +1517,7 @@ if __name__ == '__main__':
                        background="#bcbcbc",borderwidth=5,activeforeground="#4cffff",width=1,height=28,justify="center",anchor="c")
     play_btn.pack(side=RIGHT,fill=X, expand=True, padx=(3,5), pady=(3,3))
     play_btn.bind("<ButtonRelease>",lambda event:FF_Player.ctrl_btn_clicked(event,"btn play"))
-    '\u23F8'
-    FF_Player.load_menubar()
+       FF_Player.load_menubar()
     root.update()
     root_height=main_frame.winfo_reqheight()
     x=(work_area[2]/2)-(root_width/2)
