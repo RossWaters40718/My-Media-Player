@@ -173,7 +173,6 @@ class FFPLAY():
                     shuffle_btn.configure(background="#00ffff",foreground="#4cffff")# Active)
                     play_btn.configure(background="#bcbcbc",foreground="#ffffff")# Disabled)
                     stop_btn.configure(background="#bcbcbc",foreground="#ffffff")# Disabled
-
                 else:
                     play_btn.configure(background="#00ffff",foreground="#4cffff")# Active)
                     stop_btn.configure(background="#bcbcbc",foreground="#ffffff")# Disabled
