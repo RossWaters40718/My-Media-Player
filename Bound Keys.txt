@@ -1,0 +1,21 @@
+Bound Keyboard Keys
+
+Play - Keyboard Play (XF86AudioPlay)
+Next - Keyboard Next (XF86AudioNext)
+Previous - Keyboard Previous (XF86AudioPrev)
+Volume Up - Keyboard Volume Up (XF86AudioRaiseVolume)
+Volume Down - Keyboard Volume Down (XF86AudioLowerVolume)
+Toggle Mute - m, M, Keyboard Mute (XF86AudioMute)
+Toggle Pause - p, P
+Toggle Repeat - r, R
+Toggle Show Mode - w, W
+Toggle Full Screen - f, F
+Stop - q, Q, Esc
+Exit App. - e, E
+Backward 10 Seconds - Left Arrow
+Forward 10 Seconds - Right Arrow
+Backward 60 Seconds - Down Arrow
+Forward 60 Seconds - Up Arrow
+
+Note: Not All Bound Keyboard Keys Work While Viewing Image File.
+
