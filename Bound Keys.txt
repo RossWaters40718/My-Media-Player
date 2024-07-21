@@ -1,4 +1,4 @@
-My Media Player 4.7 Bound Keyboard Keys
+My Media Player 4.8 Bound Keyboard Keys
 
 Play - Keyboard Play(XF86AudioPlay)
 Next - Keyboard Next(XF86AudioNext)
