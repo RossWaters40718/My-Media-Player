@@ -294,44 +294,6 @@ class FFPLAY():
                 return False
         except Exception:
             pass
-
-
-
-#            if key=="p" :self.pause(self)
-#            if key=="r":self.ctrl_btn_clicked(self,"repeat")
-#            if key=="q" or key=="Escape":self.ctrl_btn_clicked(self,"stop")
-#            if key=="e":self.quit(self)
-#            if key.name=="media_volume_up":
-#                level=self.Master_Volume.GetMasterVolumeLevelScalar()# Volume Slider Level / 100
-#                Level.set(level*100)# Track Volume From Other Sliders (Windows, Sound Card)
-#            if key=="XF86AudioRaiseVolume":
-#                level=self.Master_Volume.GetMasterVolumeLevelScalar()# Volume Slider Level / 100
-#                Level.set(level*100)# Track Volume From Other Sliders (Windows, Sound Card)
-#            if key=="Right":
-#                self.send_keyboard_key("right")
-#                if self._time_now+10>self._duration:self._time_now=self._duration
-#                else: self._time_now+=10
-#            if key=="Left":     
-#                self.send_keyboard_key("left")
-#                if self._time_now-10<0.0:self._time_now=0.0
-#                else:self._time_now-=10
-#            if key=="Up":     
-#                self.send_keyboard_key("up")
-#                if self._time_now+60>self._duration:self._time_now=self._duration
-#                else: self._time_now+=60
-#            if key=="Down":     
-#                self.send_keyboard_key("down")
-#                if self._time_now-60<0.0:self._time_now=0.0
-#                else:self._time_now-=60
-#            if key=="f":self.send_keyboard_key("full screen")     
-#            if key=="w":self.send_keyboard_key("showmode")
-
-
-#elif key.char=="e":# Exit Program       
-#    self.listener.stop()
-#    root.update()
-#    self.stop_process()
-#    destroy()
     def set_window_coord(self,wid,hgt):
         if Screen_Position.get()=="Top Left":
             _x,_y=0,0
