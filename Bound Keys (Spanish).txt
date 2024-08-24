@@ -1,0 +1,22 @@
+Mi Reproductor Multimedia 5.1 Para Windows 11: Teclas de Teclado Enlazadas
+
+(Todos los Modos: Audio, Video, Imagen)
+⏯️ - Tocar el Teclado(XF86AudioPlay)
+⏭️ - Teclado Siguiente(XF86AudioNext)
+⏮️ - Teclado Anterior(XF86AudioPrev)
+🔊 - Subir el Volumen del Teclado(XF86AudioRaiseVolume)
+🔉 - Bajar el Volumen del Teclado(XF86AudioLowerVolume)
+🔇 - m, M, Silenciar Teclado(XF86AudioMute)
+⏸️ - p, P, Tecla de Pausa
+🔁 - r, R, Tecla de Repetición
+⏹️ - q, Q, Esc, Tecla de Parada
+Salir de la Aplicación - e, E
+
+(Solo Modos de Audio/Video)
+Alternar el Modo de Presentación - w, W
+Alternar Pantalla Completa - f, F
+← Flecha Izquierda - Hacia Atrás 10 Segundos
+→ Flecha derecha - Avance 10 Segundos
+↓ Flecha Abajo - Atrás 60 Segundos
+↑ Flecha Arriba - Avance 60 Segundos
+
