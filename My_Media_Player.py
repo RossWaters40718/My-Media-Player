@@ -236,7 +236,7 @@ class FFPLAY():
         elif key.keysym=="r" or key.keysym=="R":self.ctrl_btn_clicked(self,"repeat")
         elif key.keysym=="m" or key.keysym=="M" or key.keysym=="XF86AudioMute":self.ctrl_btn_clicked(self,"mute")
         elif key.keysym=="q" or key.keysym=="Q" or key.keysym=="Escape":self.ctrl_btn_clicked(self,"stop")
-        elif key.keysym=="e" or key.keysym=="E":self.quit(self)
+        elif key.keysym=="e" or key.keysym=="E":self.destroy()
         elif key.keysym=="XF86AudioLowerVolume":
             level=self.Master_Volume.GetMasterVolumeLevelScalar()# Volume Slider Level / 100
             Level.set(level*100)# Track Volume From Other Sliders (Windows, Sound Card)
