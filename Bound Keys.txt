@@ -1,4 +1,4 @@
-My Media Player 5.1 For Windows 11: Bound Keyboard Keys
+My Media Player 5.4 For Windows 11: Bound Keyboard Keys
 
 (All Modes: Audio, Video, Image)
 ⏯️ - Keyboard Play Key(XF86AudioPlay)
