@@ -1,0 +1,25 @@
+Modifications To innertube.py for This GUI Application.
+
+GOTO: Python Path/Python/Python313/Lib/site-packages/pytubefix/innertube.py
+Make The Modifications To _default_oauth_verifier() @ Line 518.
+This Modification Is Necessary To Prevent Terminal Input For The
+oauth verification message. The Message Is Rerouted To messagebox
+For This GUI Application. The Modification Is Below. 
+
+1.    Add Import: from tkinter import messagebox
+2.    Change _default_oauth_verifier() To Below
+
+@ 518   def  _default_oauth_verifier(verification_url: str, user_code: str):
+            """ Default `print(...)` and `input(...)` for oauth verification """
+            title='< Register Device With Google And YouTube >'
+            msg1=f'Please Open {verification_url} In Your\n'
+            msg2=f'Web Browser And Enter code {user_code}.\n'
+            msg3=f'Follow The Instructions To Complete The\n'
+            msg4='Process And Then Press OK To Continue.'
+            msg=msg1+msg2+msg3+msg4
+            messagebox.showinfo(title, msg)
+            #print(f'Please open {verification_url} and input code {user_code}')
+            #input('Press enter when you have completed this step.')
+
+Once You Have Created Your Executable And/Or Setup File, It Is Advisable
+To Remove The Modifications Done To innertube.py For Future Applications. 

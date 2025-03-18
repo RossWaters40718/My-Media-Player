@@ -1,0 +1,5 @@
+YouTube Downloader Readme    
+
+This Program Downloads Video And Audio Files From YouTube.com. Initially You May Be Required To Register This Device With Google And YouTube. Follow The Instructions To Register. The Message Should Appear If Need Be. Do Not Close The Message Until You Have Finished This Process! The Message Should Look Similar To This One Below.
+Please open https://www.google.com/device and input code XXX-XXX-XXX.
+After Entering The Require Security Code, Make Sure To Also Sign-In. Once Registered Correctly, You Are Good To Go And Should Not See This Message Again Unless Your IP Address Changes. Now You Can Click OK To Continue. To Obtain A URL For Downloading A File, Play A Desired Video Or Audio File And Right-Click The Play Window And Select Copy URL. Once Copied, Pause Or Close YouTube And Type Or Paste (ctrl+v) the URL In The URL Entry Field And Then Click 'Fetch Info'. Follow The Instructions To Complete The Download.
